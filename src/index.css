@@ -13,7 +13,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 body {
-  background-color: #1c1c1c !important;
+  background-color: black !important;
+  color: white !important;
 }
 
 .card {
@@ -44,10 +45,24 @@ label {
 #taskList {
   height: 300px;
 }
+
 #taskList::-webkit-scrollbar {
-  display: none;
+  display: none; /* Hide scrollbar */
 }
+
 .task {
   width: 300px;
   height: 100% !important;
+}
+.creat-task {
+  background: #1c1c1c;
+  border-radius: 10px;
+}
+.all-task {
+  background: #1c1c1c;
+  border-radius: 10px;
+  height: 200px;
+}
+.all-task::-webkit-scrollbar {
+  display: none;
 }

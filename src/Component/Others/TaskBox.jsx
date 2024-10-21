@@ -9,7 +9,7 @@ const TaskBox = () => {
   };
   return (
     <div className="container">
-      <div className="row row-cols-2 g-2">
+      <div className="row row-cols-2 row-cols-md-4 g-2">
         <div className="col">
           <div className="card bg-success  flex-grow-1">
             <p className=" ms-3 fs-2 fw-bold  text-white">{tasks.completed}</p>
