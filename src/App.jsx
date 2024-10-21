@@ -1,9 +1,12 @@
 import "./App.css";
+import Login from "./Component/Auth/Login";
+import EmpDashboard from "./Component/Dashboard/EmpDashboard";
 
 function App() {
   return (
     <>
-      <h1 className=" text-bg-danger ">This is AZMAT</h1>
+      {/* <Login /> */}
+      <EmpDashboard />
     </>
   );
 }
