@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 
-const Login = () => {
+const Login = ({ openDashboard }) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
   const handleLogin = (e) => {
     e.preventDefault();
+    openDashboard(email, password);
     // Perform login logic (e.g., authentication)
     console.log("Email:", email);
     console.log("Password:", password);
@@ -47,7 +48,10 @@ const Login = () => {
               required
             />
           </div>
-          <button type="submit" className="btn btn-success btn-block w-100">
+          <button
+            type="submit"
+            className="btn btn-outline-success btn-block fw-bold w-100"
+          >
             Login
           </button>
         </form>
