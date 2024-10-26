@@ -1,6 +1,7 @@
 const employees = [
   {
     id: 1,
+    firstName: "Azmat",
     email: "employee1@example.com",
     password: "123",
     tasks: [
@@ -12,6 +13,7 @@ const employees = [
         isFailed: false,
         newTask: true,
         isActive: true,
+        lastDay: "2024-10-25",
       },
       {
         title: "Update UI for dashboard",
@@ -21,11 +23,19 @@ const employees = [
         isFailed: false,
         newTask: true,
         isActive: true,
+        lastDay: "2024-10-27",
       },
     ],
+    taskCount: {
+      isActive: 2,
+      newTask: 2,
+      isFailed: 0,
+      isComplete: 0,
+    },
   },
   {
     id: 2,
+    firstName: "Priya",
     email: "employee2@example.com",
     password: "123",
     tasks: [
@@ -37,6 +47,7 @@ const employees = [
         isFailed: false,
         newTask: false,
         isActive: false,
+        lastDay: "2024-10-20",
       },
       {
         title: "Fix bugs in mobile app",
@@ -46,11 +57,19 @@ const employees = [
         isFailed: false,
         newTask: true,
         isActive: true,
+        lastDay: "2024-10-30",
       },
     ],
+    taskCount: {
+      isActive: 1,
+      newTask: 1,
+      isFailed: 0,
+      isComplete: 1,
+    },
   },
   {
     id: 3,
+    firstName: "Rahul",
     email: "employee3@example.com",
     password: "123",
     tasks: [
@@ -62,6 +81,7 @@ const employees = [
         isFailed: false,
         newTask: false,
         isActive: false,
+        lastDay: "2024-10-15",
       },
       {
         title: "Design promotional graphics",
@@ -71,11 +91,19 @@ const employees = [
         isFailed: true,
         newTask: false,
         isActive: false,
+        lastDay: "2024-10-21",
       },
     ],
+    taskCount: {
+      isActive: 0,
+      newTask: 0,
+      isFailed: 1,
+      isComplete: 1,
+    },
   },
   {
     id: 4,
+    firstName: "Anjali",
     email: "employee4@example.com",
     password: "123",
     tasks: [
@@ -87,6 +115,7 @@ const employees = [
         isFailed: false,
         newTask: true,
         isActive: true,
+        lastDay: "2024-10-29",
       },
       {
         title: "Organize company event",
@@ -96,11 +125,19 @@ const employees = [
         isFailed: false,
         newTask: false,
         isActive: false,
+        lastDay: "2024-11-02",
       },
     ],
+    taskCount: {
+      isActive: 1,
+      newTask: 1,
+      isFailed: 0,
+      isComplete: 1,
+    },
   },
   {
     id: 5,
+    firstName: "Vikram",
     email: "employee5@example.com",
     password: "123",
     tasks: [
@@ -112,6 +149,7 @@ const employees = [
         isFailed: true,
         newTask: false,
         isActive: false,
+        lastDay: "2024-10-23",
       },
       {
         title: "Write documentation",
@@ -121,14 +159,22 @@ const employees = [
         isFailed: false,
         newTask: true,
         isActive: true,
+        lastDay: "2024-11-01",
       },
     ],
+    taskCount: {
+      isActive: 1,
+      newTask: 1,
+      isFailed: 1,
+      isComplete: 0,
+    },
   },
 ];
 
 const admin = [
   {
     id: 1,
+    firstName: "Karan",
     email: "admin@example.com",
     password: "admin123",
   },

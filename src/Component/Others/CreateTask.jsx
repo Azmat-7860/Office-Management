@@ -7,7 +7,6 @@ const CreateTask = () => {
         <h2 className="text-white fs-1 mb-3">Create Task</h2>
         <form>
           <div className="row">
-            {/* Task Title */}
             <div className="col-md-6 mb-3">
               <label htmlFor="taskTitle" className="form-label text-success ">
                 Task Title
